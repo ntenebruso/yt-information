@@ -7,9 +7,7 @@
 This app was made to retrieve information from youtube videos. This retrieves information such as:
 
 * Video description
-
 * Video like and dislike count (not abbreviated)
-
 * Video view count (not abbreviated)
 
 This app was also made for developers as a demonstration of the YouTube Data API, not just as an information retriever.
