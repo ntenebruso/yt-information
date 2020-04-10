@@ -76,12 +76,28 @@ div.Search input {
     width: 400px;
     height: 40px;
     font-size: 14pt;
+    border: 2px solid #ccc;
+    outline: none;
+    padding: 5px;
+}
+
+div.Search input:focus {
+    border-color: #000;
 }
 
 div.Search button {
     width: 50px;
     height: 40px;
     font-size: 14pt;
+    background: #3486eb;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+div.Search button:hover {
+    background: #0050b3;
 }
 
 p.description {
