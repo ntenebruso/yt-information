@@ -16,4 +16,4 @@ This project was made with `react`, `react-router`, and the [Youtube Data API](h
 
 ## Demo
 
-You can see the live demo at [https://nickforthewin.github.io/yt-information]
+You can see the live demo at <https://nickforthewin.github.io/yt-information>
