@@ -30,8 +30,16 @@ To run locally,
 git clone https://github.com/nickforthewin/yt-information.git
 ```
 
-2. Make a file called `.env` in the root of the project. In the file, add the following line. Replace `your api key` with your YouTube Data API key.
+2. Then, type in this command:
+
+```
+npm install
+```
+
+3. Make a file called `.env` in the root of the project. In the file, add the following line. Replace `your api key` with your YouTube Data API key.
 
 ```
 REACT_APP_GOOGLE_API_KEY=your api key
 ```
+
+4. Type `npm start` to start the development server.
