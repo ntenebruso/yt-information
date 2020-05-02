@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
 function Video() {
-    const KEY = "AIzaSyAo9L34Cqn2JN9ib-3q9CBvCDm9Jtdlcv8";
     const { videoId } = useParams();
     const [items, setItems] = useState([]);
     const [isLoaded, setLoaded] = useState(false);
@@ -11,7 +10,7 @@ function Video() {
     }, []);
 
     async function fetchItems() {
-        const fetchItems = await fetch(`https://www.googleapis.com/youtube/v3/videos?key=${KEY}&id=${videoId}&part=snippet,statistics`);
+        const fetchItems = await fetch(`https://www.googleapis.com/youtube/v3/videos?key=${process.env.REACT_APP_GOOGLE_API_KEY}&id=${videoId}&part=snippet,statistics`);
         const items = await fetchItems.json();
         setItems(items.items);
         setLoaded(true);
