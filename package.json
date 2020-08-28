@@ -2,6 +2,7 @@
   "name": "yt-data-api",
   "version": "0.1.0",
   "homepage": "https://nickforthewin.github.io/yt-information",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
