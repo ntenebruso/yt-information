@@ -14,7 +14,7 @@ This app was made to retrieve information from youtube videos. This retrieves in
 
 This app was also made for developers as a demonstration of the YouTube Data API, not just as an information retriever.
 
-### Frameworks
+### Technologies
 
 This project was made with `react`, `react-router`, and the [Youtube Data API](https://developers.google.com/youtube/v3/getting-started).
 
