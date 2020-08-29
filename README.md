@@ -1,4 +1,4 @@
-<img src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo-full_color_light.svg" width="300">
+<p align="center"><img src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo-full_color_light.svg" width="300"></p>
 
 <h1 align="center">YouTube Video Information</h1>
 
