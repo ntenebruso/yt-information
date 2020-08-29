@@ -1,3 +1,5 @@
+<img align="center" src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo-full_color_light.svg">
+
 <h1 align="center">YouTube Video Information</h1>
 
 <p align="center">An app that retrieves information from YouTube videos</p>
